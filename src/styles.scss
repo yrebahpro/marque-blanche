@@ -1,0 +1,17 @@
+html {
+  &[data-theme="default-theme"] {
+    @import './themes/default-theme';
+  }
+  
+  &[data-theme="clientA-theme"] {
+    @import './themes/clientA-theme';
+  }
+  
+  &[data-theme="clientB-theme"] {
+    @import './themes/clientB-theme';
+  }
+  
+  &[data-theme="clientC-theme"] {
+    @import './themes/clientC-theme';
+  }
+}
